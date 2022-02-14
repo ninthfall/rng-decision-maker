@@ -1,4 +1,4 @@
-#when you can decide roll a dice 
+#when you can't decide roll a dice 
 
 import random
 
