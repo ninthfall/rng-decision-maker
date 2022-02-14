@@ -1,0 +1,12 @@
+#when you can decide roll a dice 
+
+import random
+
+def make_choice(choices):
+    choices_list = choices.split(",")
+    print(random.choice(choices_list))
+
+if __name__ == "__main__":
+    print("***Please separate each of your choices by a comma***")
+    choices = input("Enter your choices: ")
+    make_choice(choices)
